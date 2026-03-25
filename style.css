@@ -1,0 +1,131 @@
+﻿
+body {
+	
+    background: url("img/89.jpg") ;
+
+	font-family: Helvetica, Arial, sans-serif;
+	
+ 
+	font-size: 1rem;
+	line-height: 1.5rem;
+	
+	
+}
+
+
+
+
+h1 {
+	font-size: 0.8rem;
+	line-height: 1.3rem;
+	
+}
+
+p {
+	margin: bottom: 1.6rem;
+	
+}
+.header {
+    background: url("img/sa1.jpg") ;
+color: #3322;
+padding: 1rem 0;
+position:  fixed;
+left:0;
+top: 0;
+right: 0;
+}
+.header a {
+	color: white;
+	text-decoration: none;
+}
+.container {
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+
+}
+.logo-nav-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.logo {
+	letter-spacing: 15px;
+	font-size: 1.3rem;
+}
+	.menu-icon {
+display: block;
+cursor: pointer;
+	}
+
+.navigation{
+	width: 100%
+	margin-top 1rem;
+}
+
+.navigation ul.show {
+	display: block;
+}
+
+
+.navigation ul{
+margin: 0;
+padding:0;
+list-style: none;
+}
+.navigation  ul li   {
+display: inline-block;
+}
+
+.navigation  ul li a{
+display: block;
+padding: 0.5rem 1rem;
+transition: all 0.4s linear;
+border-radius: 5px;
+} 
+.navigation ul li a:hover {
+	background: blue;
+}
+.main {
+	padding:10rem;
+}
+.footer {
+	
+	padding: 4rem 0;
+	text-align: center;
+	margin-top: 6rem;
+}
+@media only screen and ( max-width: 767){
+
+.menu-icon {
+	display: block;
+	cursor: pointer;
+}
+.navigation{
+	width: 100%;
+}
+
+
+.navigation  ul li   {
+display: block;
+}
+
+.navigation  ul li a{
+display: block;
+padding: 0.5rem 0;
+transition: all 0.4s linear;
+border-radius: 5px;
+} 
+.navigation ul li a:hover {
+	background: blue;
+}
+
+
+
+
+
+
+
+
+}
